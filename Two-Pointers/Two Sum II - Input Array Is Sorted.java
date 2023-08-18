@@ -16,5 +16,6 @@ class Solution {
             else
             return new int[] {a_pointer+1,b_pointer+1}; //if sum == sum of elements at the right and left pointers, return the indices
         }
+        return new int[] {a_pointer+1,b_pointer+1};
     }
 }
